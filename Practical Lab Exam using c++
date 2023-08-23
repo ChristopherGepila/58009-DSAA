@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+	
+	
+	int testscore[6] = {26,49,98,87,62,75};
+	int sum=0;
+
+	for ( int i=0; i<6; i++){
+		
+		if (testscore[i] % 2 !=0){
+			
+			sum+=testscore[i];
+			system("CLS");
+		}
+		cout<< "The Total score is: " <<sum;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	return 0;
+}
